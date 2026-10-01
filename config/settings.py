@@ -51,19 +51,18 @@ if not SECRET_KEY:
             "The SECRET_KEY environment variable is required when DEBUG is off. "
             "Copy .env.example to .env and set one."
         )
-<<<<<<< HEAD
+    
+
 ALLOWED_HOSTS = [
     "backend-blogs-sspm.onrender.com",
 ]
 
-=======
 
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     ".onrender.com",
 ]
->>>>>>> a03df2f0fd30b9834a026aa461e1e69b56add3f5
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
